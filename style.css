@@ -1,0 +1,59 @@
+h1{
+    color:gold
+}
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+/* TEST CSS */
+.homeImg {
+    vertical-align: middle;
+    border-style: none;
+    height: 250px;
+    width: 200px;
+    border-image: 20px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.homeP{
+    text-align: justify;
+}
+
+.container{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.yt{
+    padding-left: 450px;
+}
+.menu p {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.menu:hover p{
+    opacity: 1;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border-color: black;
+    background-color: 808080;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 80px;
+}
+
+.a2{
+    padding-top: 50px;
+}
+.a3{
+    padding-top: 50px;
+}
